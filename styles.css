@@ -21,9 +21,8 @@ body {
 
 nav {
     position: fixed;
-    width: 100%;
-    z-index: 150px;
-
+    margin-top: 50px;
+    z-index: 10px;
 }
 
 ul {
@@ -71,6 +70,7 @@ h2 {
 
 .one .text {
    text-align: center;
+   position: fixed;
    color: #000;
    text-decoration: underline;
    margin-left: 20%;
@@ -79,7 +79,7 @@ h2 {
 
 .two {
     background-image: url(img/pon1.gif);
-    }
+}
 
 .header3-box {
 	width: 575px;
@@ -163,5 +163,3 @@ h4 {
     position:relative;
     top:1px;
 }
-</body>
-</html>
