@@ -22,7 +22,7 @@ body {
 nav {
     position: fixed;
     margin-top: 50px;
-    z-index: 10px;
+    z-index: 10;
 }
 
 ul {
@@ -50,6 +50,7 @@ section {
 
 p {
     margin: 0 0 1em 0;
+    padding-left: 10px;
 }
 
 .text {
@@ -73,7 +74,7 @@ h2 {
    position: fixed;
    color: #000;
    text-decoration: underline;
-   margin-left: 20%;
+   margin-left: 30%;
    padding-top: 35%;
 }
 
@@ -92,7 +93,10 @@ h3 {
     font-weight: normal;
     text-decoration: underline;
     color: #4dc3ff;
+    padding-top: 15px;
     padding-bottom: 20px;
+    padding-left: 10px;
+
 }
 
 .two .text {
@@ -118,11 +122,14 @@ h3 {
     background-image: url(img/america.png);
 }
 
+
 h4 {
     font-size: 1.5em;
     font-weight: normal;
     text-decoration: underline;
     color: #4dc3ff;
+    padding-left: 10px;
+
 }
 
 .header4-box {
